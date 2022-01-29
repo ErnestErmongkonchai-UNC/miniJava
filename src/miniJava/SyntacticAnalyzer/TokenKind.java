@@ -1,0 +1,53 @@
+package miniJava.SyntacticAnalyzer;
+
+public enum TokenKind {
+	// Token Classes
+	ID,
+	NUM,
+	BINOP,
+	UNOP,
+	EOT,
+	ERROR,
+	// Operators
+	GREATER,
+	LESS,
+	EQUAL,
+	LESSEQ,
+	GREATEQ,
+	NOTEQ,
+	AND,
+	OR,
+	PLUS,
+	MINUS,
+	TIMES,
+	DIV,
+	ASSIGN,
+	NOT,
+	// Keywords
+	CLASS,
+	VOID,
+	PUBLIC,
+	PRIVATE,
+	STATIC,
+	INT,
+	BOOLEAN,
+	THIS,
+	RETURN,
+	IF,
+	ELSE,
+	WHILE,
+	TRUE,
+	FALSE,
+	NEW,
+	// Brackets
+	LPAREN,
+	RPAREN,
+	LBRACK,
+	RBRACK,
+	LCURLY,
+	RCURLY,
+	// Punctuation
+	PERIOD,
+	COMMA,
+	SEMICOLON,
+}
